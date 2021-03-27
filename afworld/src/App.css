@@ -1,8 +1,13 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
 .App {
   text-align: center;
 }
 
 .App-logo {
+  border-radius: 50%;
   height: 40vmin;
   pointer-events: none;
 }
@@ -14,7 +19,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #c77149cc;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,10 +27,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: "Libre Baskerville", serif;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #ac553b;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +41,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+#welcome {
+  height: 400px;
+  background-color: #ad5940;
+  color: #eec9bd;
+  font-family: "Libre Baskerville", serif;
+  position: relative;
+
+  box-shadow: 10px 5px 6px 2px rgba(14, 13, 13, 0.8);
 }
