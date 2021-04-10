@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgb(214, 181, 181);
+}
+.text-center {
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.welcome-section {
+  position: sticky;
+  height: 350px;
+  width: 100%;
+  color: #eec9bd;
+  background-color: #ad5940;
+  box-shadow: 10px 5px 6px 20px rgba(14, 13, 13, 0.7);
+  border-bottom: 80%;
+}
+.intro {
+  width: 100%;
+  height: 600px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("./img/home.jpeg");
+  background-size: cover;
+  background-position: center;
+}
