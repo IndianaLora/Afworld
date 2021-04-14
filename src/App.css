@@ -3,7 +3,6 @@
   margin: 0%;
   padding: 0%;
   font-family: "Times New Roman", Times, serif;
-  background-color: rgb(214, 181, 181);
 }
 .text-center {
   align-items: center;
@@ -14,10 +13,24 @@
 .welcome-section {
   position: sticky;
   height: 350px;
-  width: 100%;
+  width: 67%;
   color: #eec9bd;
-  background-color: #ad5940;
+  background-image: linear-gradient(
+    to right top,
+    #ad5940,
+    #b9694c,
+    #c67958,
+    #d28965,
+    #de9973
+  );
   box-shadow: 10px 5px 6px 20px rgba(14, 13, 13, 0.7);
+  border-bottom: 80%;
+  border-bottom-right-radius: 50%;
+}
+.temporary {
+  background-color: #ad5940;
+  position: sticky;
+  border-bottom-right-radius: 50%;
   border-bottom: 80%;
 }
 .intro {
@@ -27,4 +40,26 @@
     url("./img/home.jpeg");
   background-size: cover;
   background-position: center;
+}
+.menu {
+  position: absolute;
+  margin-left: 78%;
+  margin-top: 18%;
+  min-width: 50px;
+}
+.navData {
+  color: #eec9bd;
+  font-size: 25px;
+ 
+}
+.logo{
+  background-image: url("./img/afLogo.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  margin-left: 78%;
 }

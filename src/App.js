@@ -1,8 +1,15 @@
 import "./App.css";
-
+import Navbar from "./components/pages/Navbar";
 function App() {
   return (
-    <div>
+    <div className="temporary">
+    <div className="temporary">
+      <div className="logo">
+      </div>
+      <div className="menu">
+      <Navbar />
+      </div>
+      </div>
       <div className="welcome-section">
         <h1 className="text-center">Bienvenido a AfWorld ♥♥</h1>
         <p className="text-center">
