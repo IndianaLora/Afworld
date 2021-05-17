@@ -1,7 +1,9 @@
 import React from "react";
+
 function Home() {
   return (
     <div>
+   
       <div className="welcome-section">
         <h1 className="text-center">Bienvenido a AF World</h1>
         <p className="text-center">

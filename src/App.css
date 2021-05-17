@@ -10,7 +10,10 @@
   justify-content: center;
   background-color: transparent;
 }
-
+.whiter{
+  position: absolute;
+  color: #eec9bd;
+}
 .welcome-section {
   position: sticky;
   height: 350px;
