@@ -3,18 +3,18 @@ import React from "react";
 function Navbar() {
   const navbarData = [
     {
-      tittle: "",
+      tittle: "Inicio",
       path: "",
       className: "navData",
     },
 
     {
-      tittle: "",
+      tittle: "Productos",
       path: "",
       className: "navData",
     },
     {
-      tittle: "",
+      tittle: "Sobre nosotros",
       path: "",
       className: "navData",
     },
