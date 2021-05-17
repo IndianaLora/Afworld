@@ -1,26 +1,23 @@
 import "./App.css";
-import Home from "./components/pages/Home";
-// import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Navbar from "./components/pages/Navbar";
+import Home from "./components/Home";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Products from "./pages/Products";
 
 function App() {
   return (
-    <div className="home-container">
-      <div className="logo"></div>
-      <div className="menu">
-        <Navbar />
-      </div>
-      <Home/>
-{/*     
-      <Router>
-        <Switch>
-          <Route path="/"></Route>
-          <Route path="/"></Route>
-          <Route path="/"></Route>
-        </Switch>
-      </Router> */}
-     
-    </div>
+    <Router>
+      <Navbar />
+      <Switch>
+        <Route path="/">
+          <Home />
+        </Route>
+        <Route path="/Products">
+          <Products/>
+        </Route>
+        <Route path="/"></Route>
+      </Switch>
+    </Router>
   );
 }
 

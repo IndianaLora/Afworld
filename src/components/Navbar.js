@@ -4,28 +4,31 @@ function Navbar() {
   const navbarData = [
     {
       tittle: "Inicio",
-      path: "",
+      path: "/Home",
       className: "navData",
     },
 
     {
       tittle: "Productos",
-      path: "",
+      path: "/Products",
       className: "navData",
     },
     {
       tittle: "Sobre nosotros",
-      path: "",
+      path: "/About",
       className: "navData",
     },
   ];
 
   return (
+    
     <div>
+      <div className="logo"></div>
       <nav class="menu">
+      
         {navbarData.map((data) => {
           return (
-            <a href="#" className={data.className}>
+            <a href={data.path} className={data.className}>
               {data.tittle}
             </a>
           );
