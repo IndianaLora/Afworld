@@ -1,11 +1,18 @@
-import React from 'react'
+import react from "react";
 
 function Products() {
-    return (
-        <div>
-            <h1 className="whiter">Products</h1>
-        </div>
-    )
+  return (
+    <div>
+      <h1 className="whiter">Lista de productos</h1>
+      <Llavero />
+      <Image/>
+    </div>
+  );
 }
-
-export default Products
+const Llavero = () => {
+  return <article className="whiter">Esto es un llavero</article>;
+};
+const Image = () =>{
+   return <img src="../img/Llavero.jpeg" alt="Imagen de nuestro llavero"/>
+}
+export default Products;
