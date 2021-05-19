@@ -9,13 +9,13 @@ function App() {
   return (
     <Router>
       <Navbar />
+      <Route path="/" exact component={Home} />
       <Switch>
-        <Route path="/home" exact component={Home}/>
-        <Route path="/products" >
-          <Products/>
+        <Route path="/products">
+          <Products />
         </Route>
         <Route path="/about">
-          <About/>
+          <About />
         </Route>
       </Switch>
     </Router>

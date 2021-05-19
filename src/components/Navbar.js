@@ -4,7 +4,7 @@ function Navbar() {
   const navbarData = [
     {
       tittle: "Inicio",
-      path: "/Home",
+      path: "/",
       className: "navData",
     },
 

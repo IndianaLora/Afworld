@@ -2,33 +2,34 @@
   box-sizing: border-box;
   margin: 0%;
   padding: 0%;
-  font-family: "Times New Roman", Times, serif;
-  background-color: black;
-  color: white;
+}
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #da9578;
+  color: rgb(20, 18, 18);
 }
 .text-center {
   align-items: center;
   justify-content: center;
   background-color: transparent;
 }
-.whiter{
+.whiter {
   position: relative;
-  color: #eec9bd;
+  color: #3f0101;
   background-color: transparent;
-  
 }
 .welcome-section {
   position: sticky;
   height: 350px;
   width: 67%;
-  color: #eec9bd;
+  color: #3f0101;
   background-image: linear-gradient(
     to right top,
     #ad5940,
-    #b9694c,
+    #e68e6f,
     #c67958,
     #d28965,
-    #de9973
+    #ad5332
   );
   box-shadow: 10px 5px 6px 20px rgba(14, 13, 13, 0.7);
   border-bottom: 80%;
@@ -56,22 +57,19 @@
   background-color: transparent;
 }
 .navData {
-  color: #eec9bd;
+  color: #3f0101;
   font-size: 25px;
   padding: 10px;
   display: flex;
   flex-direction: row-reverse;
 }
- nav a:hover{
-  background: rgb(233, 176, 111);
+nav a:hover {
+  background: #af7868;
   border-radius: 10%;
   width: fit-content;
-  color: black;
+  color: rgb(228, 190, 190);
   text-decoration: none;
-  position:relative;
- 
-
- 
+  position: relative;
 }
 .logo {
   background-image: url("./img/afLogo.png");
@@ -84,4 +82,28 @@
   position: absolute;
   margin-top: 2%;
   margin-left: 78%;
+}
+
+.product {
+  width: 90vw;
+  max-width: 1117px;
+  margin: 5rem ;
+  display: grid;
+  gap: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .product {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.article img {
+  width: 200px;
+  height: 200px;
+}
+.article {
+  background-color: #1d0606;
+  color: #da9578;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
 }
