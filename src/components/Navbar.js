@@ -21,11 +21,9 @@ function Navbar() {
   ];
 
   return (
-    
-    <div>
+    <div className="navBar">
       <div className="logo"></div>
       <nav class="menu">
-      
         {navbarData.map((data) => {
           return (
             <a href={data.path} className={data.className}>
@@ -34,6 +32,14 @@ function Navbar() {
           );
         })}
       </nav>
+      <div className="welcome-section">
+        <h1 className="text-center">Bienvenido a AF World</h1>
+
+        <h3 className="text-description">
+          Accesorios en resina hechos a mano ♥
+        </h3>
+      </div>
+  
     </div>
   );
 }

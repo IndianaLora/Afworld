@@ -2,19 +2,28 @@
   box-sizing: border-box;
   margin: 0%;
   padding: 0%;
+  font-family: "Lobster", cursive, sans-serif;
 }
 body {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #da9578;
+  font-family: "Pattaya", sans-serif;
+  background-color: #c67958;
   color: rgb(20, 18, 18);
 }
-.text-center {
-  align-items: center;
-  justify-content: center;
-  background-color: transparent;
+.navBar {
+  background-color: #da9578;
 }
+.text-description {
+  margin-top: 5%;
+  text-align: center;
+  font-family: "Pattaya", sans-serif;
+}
+.text-center {
+  font-family: "Pattaya", sans-serif;
+}
+
 .whiter {
   position: relative;
+  margin-top: 2%;
   color: #3f0101;
   background-color: transparent;
 }
@@ -67,7 +76,7 @@ nav a:hover {
   background: #af7868;
   border-radius: 10%;
   width: fit-content;
-  color: rgb(228, 190, 190);
+  color: #d1b2a4;
   text-decoration: none;
   position: relative;
 }
@@ -87,7 +96,7 @@ nav a:hover {
 .product {
   width: 90vw;
   max-width: 1117px;
-  margin: 5rem ;
+  margin: 5rem auto;
   display: grid;
   gap: 2rem;
 }
@@ -98,12 +107,18 @@ nav a:hover {
 }
 
 .article img {
-  width: 200px;
+  width: 300px;
   height: 200px;
+  
 }
 .article {
-  background-color: #1d0606;
+  
+  background-color: #7a672e;
   color: #da9578;
   border-radius: 1rem;
   padding: 1rem 2rem;
+}
+
+.productsContainer {
+  background-color: #ad5332;
 }

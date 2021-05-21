@@ -8,7 +8,9 @@ import About from "./pages/About";
 function App() {
   return (
     <Router>
+      <div>
       <Navbar />
+      </div>
       <Route path="/" exact component={Home} />
       <Switch>
         <Route path="/products">
