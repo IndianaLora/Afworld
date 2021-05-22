@@ -12,6 +12,11 @@ body {
 .navBar {
   background-color: #da9578;
 }
+@media only screen and (max-width: 600px) {
+  .navBar {
+    min-width: 500px;
+  }
+}
 .text-description {
   margin-top: 5%;
   text-align: center;
@@ -56,7 +61,12 @@ body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("./img/home.jpeg");
   background-size: cover;
-  background-position: center;
+
+}
+@media only screen and (max-width: 600px) {
+  .navBar {
+    min-width: 500px;
+  }
 }
 .menu {
   position: absolute;
@@ -92,7 +102,11 @@ nav a:hover {
   margin-top: 2%;
   margin-left: 78%;
 }
-
+@media only screen and (max-width: 600px) {
+  .logo {
+    display: none;
+  }
+}
 .product {
   width: 90vw;
   max-width: 1117px;
@@ -107,18 +121,44 @@ nav a:hover {
 }
 
 .article img {
-  width: 300px;
+  width: 250px;
   height: 200px;
-  
 }
 .article {
-  
-  background-color: #7a672e;
-  color: #da9578;
+  background-color: #e67545;
+  color: #3f0101;
   border-radius: 1rem;
   padding: 1rem 2rem;
 }
 
 .productsContainer {
   background-color: #ad5332;
+}
+.about-container {
+  background-color: #ad5332;
+}
+.about-section {
+  position: relative;
+  display: flex;
+}
+.p-descripction {
+  width: 400px;
+  width: 600px;
+  position: absolute;
+  left: 30%;
+  vertical-align: middle;
+  text-align: center;
+  text-shadow: 2px 2px 5px grey;
+  border-radius: 8px;
+  color: rgb(226, 228, 229);
+  background-image: linear-gradient(rgba(8, 0, 0, 0.3), rgba(21, 21, 24, 0.1));
+}
+.about-img {
+  float: left;
+  border-radius: 10%;
+  margin-right: 5%;
+}
+.glitter-conatiner {
+  background-image: url("./img/g1.gif");
+  background-size: cover;
 }

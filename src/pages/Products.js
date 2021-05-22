@@ -14,7 +14,7 @@ function Products() {
         <HairClips />
         <Earrings />
         <BowTie />
-        <Book job="dev" />
+        <Book />
       </div>
     </div>
   );
