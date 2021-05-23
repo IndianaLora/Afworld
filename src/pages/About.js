@@ -5,11 +5,6 @@ function About() {
     <div className="about-container">
       <h1 className="whiter">About</h1>
       <div className="about-section">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoGivMLPOpiswk34YEc6qgVyqOO_4YnOaVuQULYrMkPQYeQbpqRVvJ189Ptt-wK1KyjVc&usqp=CAU"
-          alt="Resing image"
-          className="about-img"
-        />
         <p className="p-descripction">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
