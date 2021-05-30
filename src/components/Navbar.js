@@ -3,20 +3,23 @@ import React from "react";
 function Navbar() {
   const navbarData = [
     {
+      id:1,
       tittle: "Inicio",
       path: "/",
-      className: "navData",
+      classNamee: "navData",
     },
 
     {
+      id:2,
       tittle: "Productos",
       path: "/Products",
-      className: "navData",
+      classNamee: "navData",
     },
     {
+      id:3,
       tittle: "Sobre nosotros",
       path: "/About",
-      className: "navData",
+      classNamee: "navData",
     },
   ];
 
@@ -26,7 +29,7 @@ function Navbar() {
       <nav class="menu">
         {navbarData.map((data) => {
           return (
-            <a href={data.path} className={data.className}>
+            <a href={data.path} className={data.classNamee} key={navbarData.id}>
               {data.tittle}
             </a>
           );

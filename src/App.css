@@ -61,7 +61,18 @@ body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("./img/home.jpeg");
   background-size: cover;
-
+}
+.imgx {
+  width: 180px;
+  height: 180px;
+  margin: 5rem auto;
+}
+@media screen and (min-width: 768px) {
+  .imgx {
+    width: 300px;
+    height: 300px;
+    margin: 5rem auto;
+  }
 }
 @media only screen and (max-width: 600px) {
   .navBar {
@@ -140,6 +151,22 @@ nav a:hover {
 .about-section {
   position: relative;
   display: flex;
+}
+#about-1 {
+  background-image: url("./img/abo.jpeg");
+  background-size: cover;
+}
+#about-2 {
+  background-image: url("./img/abou.jpeg");
+  background-size: cover;
+}
+#about-3 {
+  background-image: url("./img/about.jpeg");
+  background-size: cover;
+}
+.about-section div {
+  justify-content: center;
+  margin: 5rem auto;
 }
 .p-descripction {
   width: 400px;
