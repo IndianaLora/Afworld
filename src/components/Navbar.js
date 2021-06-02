@@ -3,20 +3,20 @@ import React from "react";
 function Navbar() {
   const navbarData = [
     {
-      id:1,
+      id: 1,
       tittle: "Inicio",
       path: "/",
       classNamee: "navData",
     },
 
     {
-      id:2,
+      id: 2,
       tittle: "Productos",
       path: "/Products",
       classNamee: "navData",
     },
     {
-      id:3,
+      id: 3,
       tittle: "Sobre nosotros",
       path: "/About",
       classNamee: "navData",
@@ -26,10 +26,10 @@ function Navbar() {
   return (
     <div className="navBar">
       <div className="logo"></div>
-      <nav class="menu">
+      <nav className="menu">
         {navbarData.map((data) => {
           return (
-            <a href={data.path} className={data.classNamee} key={navbarData.id}>
+            <a href={data.path} className={data.classNamee} key={data.id}>
               {data.tittle}
             </a>
           );
@@ -42,7 +42,6 @@ function Navbar() {
           Accesorios en resina hechos a mano ♥
         </h3>
       </div>
-  
     </div>
   );
 }

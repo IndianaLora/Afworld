@@ -185,7 +185,15 @@ nav a:hover {
   border-radius: 10%;
   margin-right: 5%;
 }
-.glitter-conatiner {
-  background-image: url("./img/g1.gif");
-  background-size: cover;
+
+.line {
+  background-color: #3f0101;
+  height: 100px;
+}
+.feed-back-container {
+  width: 90vw;
+  max-width: 500px;
+  margin: 5rem auto ;
+  display: grid;
+  gap: 2rem;
 }
