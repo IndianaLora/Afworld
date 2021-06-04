@@ -1,15 +1,16 @@
-import "./App.css";
+import React, { useEffect } from "react";
 import Home from "./components/Home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/index";
 import Products from "./pages/Products";
 import About from "./pages/About";
+import "./App.css";
 
 function App() {
   return (
     <Router>
       <div>
-      <Navbar />
+        <Navbar />
       </div>
       <Route path="/" exact component={Home} />
       <Switch>

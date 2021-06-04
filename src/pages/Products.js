@@ -1,6 +1,8 @@
+import llavero from "../img/Llavero.jpeg";
 
 
 function Products() {
+  
   return (
     <div className="productsContainer">
       <h1 className="whiter">Catalogo de productos</h1>
@@ -15,7 +17,7 @@ const Article = () => {
     {
       id: 1,
       name: "Collar",
-      img: "https://flomory.com/media/cache/2c/d1/2cd1eea07f10b826bcd3dd2f514c59e5.jpg",
+      img: llavero,
       price: "Precio:$0.00",
     },
     {
