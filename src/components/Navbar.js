@@ -24,25 +24,26 @@ function Navbar() {
   ];
 
   return (
-    <div className="navBar">
-      <div className="logo"></div>
-      <nav className="menu">
-        {navbarData.map((data) => {
-          return (
-            <a href={data.path} className={data.classNamee} key={data.id}>
-              {data.tittle}
-            </a>
-          );
-        })}
-      </nav>
+    <>
       <div className="welcome-section">
+      <nav className="menu">
+          {navbarData.map((data) => {
+            return (
+              <a href={data.path} className={data.classNamee} key={data.id}>
+                {data.tittle}
+              </a>
+            );
+          })}
+        </nav>
         <h1 className="text-center">Bienvenido a AF World</h1>
-
         <h3 className="text-description">
           Accesorios en resina hechos a mano ♥
         </h3>
-      </div>
-    </div>
+        </div>
+       
+     
+      </>
+   
   );
 }
 

@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0%;
   padding: 0%;
-  font-family: "Lobster", cursive, sans-serigitgit ;
+  font-family: "Lobster", cursive, sans-serigitgit;
 }
 body {
   font-family: "Pattaya", sans-serif;
@@ -10,22 +10,23 @@ body {
   color: rgb(20, 18, 18);
 }
 .navBar {
-  background-color: #da9578;
+  background-color: #c95726;
 }
 @media only screen and (max-width: 600px) {
   .navBar {
-    min-width: 500px;
+    min-width: 100vh;
   }
 }
+
 .text-description {
-  margin-top: 5%;
   text-align: center;
   font-family: "Pattaya", sans-serif;
 }
-.text-center {
-  font-family: "Pattaya", sans-serif;
+@media only screen and (max-width: 600px) {
+  .text-description {
+    font-size: 15px;
+  }
 }
-
 .whiter {
   position: relative;
   margin-top: 2%;
@@ -49,18 +50,27 @@ body {
   border-bottom: 80%;
   border-bottom-right-radius: 50%;
 }
-.temporary {
-  background-color: #ad5940;
-  position: sticky;
-  border-bottom-right-radius: 50%;
-  border-bottom: 80%;
+@media only screen and (max-width: 600px) {
+  .welcome-section {
+    height: 250px;
+    width: 50%;
+  }
 }
+
 .intro {
   width: 100%;
   height: 600px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("./img/home.jpeg");
   background-size: cover;
+  background-position: center;
+}
+@media only screen and (max-width: 600px) {
+  .intro {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+  }
 }
 .imgx {
   width: 180px;
@@ -69,14 +79,26 @@ body {
 }
 @media screen and (min-width: 768px) {
   .imgx {
-    width: 300px;
+    width: 250px;
     height: 300px;
     margin: 5rem auto;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media only screen and (max-width: 600px) {
   .navBar {
-    min-width: 500px;
+    min-width: 300px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .menu {
+    width: 50px;
+    margin-left: 50%;
+    float: left;
+    display: inline;
+    width: 49%;
   }
 }
 .menu {
@@ -92,6 +114,12 @@ body {
   padding: 10px;
   display: flex;
   flex-direction: row-reverse;
+}
+@media only screen and (max-width: 600px) {
+  .navData {
+    padding: 5px;
+    position: sticky;
+  }
 }
 nav a:hover {
   background: #af7868;
@@ -185,4 +213,3 @@ nav a:hover {
   border-radius: 10%;
   margin-right: 5%;
 }
-

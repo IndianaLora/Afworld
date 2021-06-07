@@ -3,9 +3,7 @@ import { useForm } from "react-hook-form";
 
 import AboutDescription from "../components/AboutDescription";
 
-
 function About() {
- 
   const { register, handleSubmit } = useForm();
   const onSubmit = (e) => {
     console.log(JSON.stringify(e));
@@ -16,7 +14,7 @@ function About() {
       <AboutDescription />
       <br className="line" />
       <h1 className="whiter">Cuentanos tu experiencia</h1>
-      <div className="feed-back-container">
+      {/* <div className="feed-back-container">
         <form>
           <input
             name="name"
@@ -36,7 +34,7 @@ function About() {
           <br className="line" />
           <input type="submit" value="enviar" />
         </form>
-      </div>
+      </div> */}
     </div>
   );
 }
