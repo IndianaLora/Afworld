@@ -8,6 +8,7 @@ function AboutDescription() {
         <div id="about-2" className="imgx"></div>
         <div id="about-3" className="imgx"></div>
       </div>  
+    
         </div>
     )
 }

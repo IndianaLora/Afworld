@@ -6,8 +6,9 @@
 }
 body {
   font-family: "Pattaya", sans-serif;
-  background-color: #c67958;
+  background-color: #1a0801;
   color: rgb(20, 18, 18);
+  min-width: 650px;
 }
 .navBar {
   background-color: #c95726;
@@ -50,6 +51,7 @@ body {
   border-bottom: 80%;
   border-bottom-right-radius: 50%;
 }
+
 @media only screen and (max-width: 600px) {
   .welcome-section {
     height: 250px;
@@ -68,8 +70,10 @@ body {
 @media only screen and (max-width: 600px) {
   .intro {
     background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url("./img/home4.jpg");
     background-repeat: no-repeat;
-    height: 200px;
+    height: 500px;
   }
 }
 .imgx {
@@ -103,13 +107,13 @@ body {
 }
 .menu {
   position: absolute;
-  margin-left: 85%;
-  margin-top: 10%;
+  margin-left: 130%;
+  margin-top: 18%;
   width: 180px;
   background-color: transparent;
 }
 .navData {
-  color: #3f0101;
+  color: #fad7d7;
   font-size: 25px;
   padding: 10px;
   display: flex;
@@ -172,9 +176,12 @@ nav a:hover {
 
 .productsContainer {
   background-color: #ad5332;
+  min-width: 650px;
 }
 .about-container {
   background-color: #ad5332;
+  margin-bottom: 5%;
+  min-width: 650px;
 }
 .about-section {
   position: relative;
@@ -183,19 +190,35 @@ nav a:hover {
 #about-1 {
   background-image: url("./img/abo.jpeg");
   background-size: cover;
+  width: 300px;
+  height: 270px;
 }
 #about-2 {
   background-image: url("./img/abou.jpeg");
   background-size: cover;
+  width: 300px;
+  height: 270px;
 }
 #about-3 {
   background-image: url("./img/about.jpeg");
   background-size: cover;
+  width: 300px;
+  height: 270px;
 }
-.about-section div {
-  justify-content: center;
+.about-section {
+  width: 90vw;
+  max-width: 1117px;
   margin: 5rem auto;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(1, 1fr);
 }
+@media screen and (min-width: 768px) {
+  .about-section {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 .p-descripction {
   width: 400px;
   width: 600px;
@@ -212,4 +235,16 @@ nav a:hover {
   float: left;
   border-radius: 10%;
   margin-right: 5%;
+}
+.player {
+  margin-left: 30%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+@media only screen and (max-width: 600px) {
+  .player {
+    width: 100px;
+    height: 100px;
+    margin-left: 0%;
+  }
 }
