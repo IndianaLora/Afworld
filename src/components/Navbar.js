@@ -4,20 +4,20 @@ function Navbar() {
   const navbarData = [
     {
       id: 1,
-      tittle: "Inicio",
+      tittle: "Home",
       path: "/",
       classNamee: "navData",
     },
 
     {
       id: 2,
-      tittle: "Productos",
+      tittle: "Products",
       path: "/Products",
       classNamee: "navData",
     },
     {
       id: 3,
-      tittle: "Sobre nosotros",
+      tittle: "About resin",
       path: "/About",
       classNamee: "navData",
     },
@@ -35,9 +35,9 @@ function Navbar() {
             );
           })}
         </nav>
-        <h1 className="text-center">Bienvenido a AF World</h1>
+        <h1 className="text-center"> Resin World</h1>
         <h3 className="text-description">
-          Accesorios en resina hechos a mano ♥
+          Page dedicated to the resin amazing world ♥
         </h3>
         </div>
        

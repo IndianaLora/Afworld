@@ -8,6 +8,7 @@ import "./App.css";
 
 function App() {
   return (
+    <React.Fragment>
     <Router>
       <section>
         <Navbar />
@@ -22,6 +23,7 @@ function App() {
         </Route>
       </Switch>
     </Router>
+    </React.Fragment>
   );
 }
 

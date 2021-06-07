@@ -7,10 +7,10 @@ function About() {
   return (
     <div className="about-container">
       <div>
-        <h1 className="whiter">Sobre nosotros</h1>
+        <h1 className="whiter">About us</h1>
         <AboutDescription />
         <br className="line" />
-        <h1 className="whiter">Conoce un poco mas la resina</h1>
+        <h1 className="whiter">Get to know more about resin</h1>
         <ReactPlayer
           className="player"
           url="https://www.youtube.com/watch?v=z8mX9H9O75c"
