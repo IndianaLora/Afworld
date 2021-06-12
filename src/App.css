@@ -117,7 +117,6 @@ body {
   font-size: 25px;
   padding: 10px;
   display: flex;
-  
 }
 @media only screen and (max-width: 600px) {
   .navData {
@@ -165,10 +164,10 @@ nav a:hover {
 .productsContainer {
   background-color: #ad5332;
   min-width: 650px;
+  margin-bottom: ;
 }
 .about-container {
   background-color: #ad5332;
-  margin-bottom: 5%;
   min-width: 650px;
 }
 .about-section {
@@ -198,7 +197,6 @@ nav a:hover {
   height: 270px;
   border-radius: 40%;
   border: 5px solid #3f0101;
- 
 }
 .about-section {
   width: 90vw;
@@ -241,5 +239,24 @@ nav a:hover {
     width: 100px;
     height: 100px;
     margin-left: 0%;
+  }
+}
+.footer {
+  height: 6%;
+  width: 100%;
+
+  margin-bottom: 0%;
+  background-image: linear-gradient(
+    to right top,
+    #ad5940,
+    #e68e6f,
+    #c67958,
+    #d28965,
+    #ad5332
+  );
+}
+@media only screen and (max-width: 600px) {
+  div.footer {
+    min-width: 1000px;
   }
 }
