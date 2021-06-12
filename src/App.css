@@ -55,7 +55,7 @@ body {
 @media only screen and (max-width: 480px) {
   .welcome-section {
     height: 250px;
-    width: 20%;
+    width: 50%;
   }
 }
 
@@ -70,10 +70,11 @@ body {
   .intro {
     background-size: cover;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url("./img/home4.jpg");
+      url("./img/home6.jpg");
     background-repeat: no-repeat;
+    background-position: center;
     height: 500px;
-    width: 50%;
+    width: 100%;
   }
 }
 .imgx {
@@ -116,7 +117,7 @@ body {
   font-size: 25px;
   padding: 10px;
   display: flex;
-  flex-direction: row-reverse;
+  
 }
 @media only screen and (max-width: 600px) {
   .navData {
