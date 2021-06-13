@@ -28,7 +28,7 @@ function AboutDescription() {
           </h3>
           <p class="card-text">
             “Keep your word. Honor commitments and they will double back to
-            honor you.” Bill Rancic
+            honor you.” – Bill Rancic
           </p>
         </div>
 
