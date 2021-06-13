@@ -7,7 +7,7 @@ function About() {
   return (
     <div className="about-container">
       <div>
-        <h1 className="whiter">About us</h1>
+        <h1 className="whiter">Values for entrepreneurship</h1>
         <AboutDescription />
         <br className="line" />
         <h1 className="whiter">Get to know more about resin</h1>
