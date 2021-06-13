@@ -37,8 +37,15 @@ function Navbar() {
         </nav>
         <h1 className="text-center"> Resin World</h1>
         <h3 className="text-description">
-          Page dedicated to the resin amazing world ♥
+          Page dedicated to the resin amazing world 
         </h3>
+        <h4 className="text-description">
+          Get inspired by ideas or products
+        </h4>
+        <h5 className="text-description">
+          Enjoy!
+        </h5>
+
         </div>
        
      
